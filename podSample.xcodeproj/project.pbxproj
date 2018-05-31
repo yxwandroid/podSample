@@ -12,6 +12,7 @@
 		D334635B20BFA30900774A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D334635920BFA30900774A74 /* Main.storyboard */; };
 		D334635D20BFA30B00774A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D334635C20BFA30B00774A74 /* Assets.xcassets */; };
 		D334636020BFA30B00774A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D334635E20BFA30B00774A74 /* LaunchScreen.storyboard */; };
+		D334636820BFA52500774A74 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334636720BFA52500774A74 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D334635C20BFA30B00774A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D334635F20BFA30B00774A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D334636120BFA30B00774A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D334636720BFA52500774A74 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D334635C20BFA30B00774A74 /* Assets.xcassets */,
 				D334635E20BFA30B00774A74 /* LaunchScreen.storyboard */,
 				D334636120BFA30B00774A74 /* Info.plist */,
+				D334636720BFA52500774A74 /* Utils.swift */,
 			);
 			path = podSample;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				D334635820BFA30900774A74 /* ViewController.swift in Sources */,
 				D334635620BFA30900774A74 /* AppDelegate.swift in Sources */,
+				D334636820BFA52500774A74 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
